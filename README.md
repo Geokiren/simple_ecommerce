@@ -86,3 +86,4 @@ The unit testing part was a bit challenging mocking the request functions. I use
 * Add more unit tests
 * Add persistance to theme changing
 * More image optimizations
+* Improve performance according using Lighthouse and other similar dev tools
