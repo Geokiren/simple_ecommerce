@@ -2,17 +2,6 @@
 
 A simple e-commerce application built with Vue 3, Vite, and Pinia.
 
-## Table of Contents
-
-- [Getting Started](#getting-started)
-- [Project Structure](#project-structure)
-- [Features](#features)
-- [Dependencies](#dependencies)
-- [Development](#development)
-- [Build and Deployment](#build-and-deployment)
-- [Testing](#testing)
-- [Linting and Formatting](#linting-and-formatting)
-
 ## Getting Started
 
 To get started with this project, clone the repository and install the dependencies:
