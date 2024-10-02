@@ -1,0 +1,62 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`MediaCarousel > matches snapshot 1`] = `
+<div
+  class="media-slider flex flex-col gap-1 w-full"
+>
+  <div
+    class="selected-media w-full"
+  >
+    <div
+      class="relative aspect-video bg-secondary rounded-lg"
+    >
+      <!--v-if-->
+    </div>
+  </div>
+  <div
+    class="thumbnails flex gap-1 w-full h-16 lg:h-24 4xl:h-32 overflow-auto"
+  >
+    
+    <div
+      class="relative overflow-hidden cursor-pointer rounded-lg bg-secondary"
+      loading="lazy"
+    >
+      <img
+        alt="thumbnail-0"
+        class="inset-0 w-full h-full object-cover transition-opacity duration-300 opacity-0"
+        data-src="image1.jpg"
+        src=""
+      />
+      <!--v-if-->
+      <!--v-if-->
+    </div>
+    <div
+      class="relative overflow-hidden cursor-pointer rounded-lg bg-secondary"
+      loading="lazy"
+    >
+      <img
+        alt="thumbnail-1"
+        class="inset-0 w-full h-full object-cover transition-opacity duration-300 opacity-0"
+        data-src="image2.jpg"
+        src=""
+      />
+      <!--v-if-->
+      <!--v-if-->
+    </div>
+    <div
+      class="relative overflow-hidden cursor-pointer rounded-lg bg-secondary"
+      loading="lazy"
+    >
+      <img
+        alt="thumbnail-2"
+        class="inset-0 w-full h-full object-cover transition-opacity duration-300 opacity-0"
+        data-src="image3.jpg"
+        src=""
+      />
+      <!--v-if-->
+      <!--v-if-->
+    </div>
+    
+  </div>
+</div>
+`;

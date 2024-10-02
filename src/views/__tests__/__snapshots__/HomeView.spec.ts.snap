@@ -1,0 +1,262 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`HomeView > matches snapshot 1`] = `
+<div
+  data-v-app=""
+>
+  
+  <section
+    class="flex flex-col gap-4 items-center justify-between max-w-screen-2xl mx-auto px-6 pt-6 pb-0"
+  >
+    <input
+      class="w-full bg-inherit focus:border-b px-2 focus:outline-none text-2xl text-center"
+      placeholder="Search"
+      type="text"
+    />
+    <div
+      class="w-full flex flex-col lg:flex-row gap-2"
+    >
+      <div
+        class="flex flex-col w-full gap-1"
+      >
+        <label
+          class="text-xs font-semibold ps-1"
+        >
+          Category
+        </label>
+        <div
+          class="relative inline-block text-left w-full"
+        >
+          <div>
+            <button
+              class="inline-flex justify-between w-full rounded-md dark:border-background shadow-sm px-4 py-2 bg-secondary text-sm font-medium focus:outline-none"
+              type="button"
+            >
+              Select a category 
+              <svg
+                aria-hidden="true"
+                class="-mr-1 ml-2 h-5 w-5"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </button>
+          </div>
+          <!--v-if-->
+        </div>
+      </div>
+      <div
+        class="flex flex-col w-full gap-1"
+      >
+        <label
+          class="text-xs font-semibold ps-1"
+        >
+          Sort By
+        </label>
+        <div
+          class="relative inline-block text-left w-full"
+        >
+          <div>
+            <button
+              class="inline-flex justify-between w-full rounded-md dark:border-background shadow-sm px-4 py-2 bg-secondary text-sm font-medium focus:outline-none"
+              type="button"
+            >
+              Title 
+              <svg
+                aria-hidden="true"
+                class="-mr-1 ml-2 h-5 w-5"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </button>
+          </div>
+          <!--v-if-->
+        </div>
+      </div>
+      <div
+        class="flex flex-col w-full gap-1"
+      >
+        <label
+          class="text-xs font-semibold ps-1"
+        >
+          Order By
+        </label>
+        <div
+          class="relative inline-block text-left w-full"
+        >
+          <div>
+            <button
+              class="inline-flex justify-between w-full rounded-md dark:border-background shadow-sm px-4 py-2 bg-secondary text-sm font-medium focus:outline-none"
+              type="button"
+            >
+              Ascending 
+              <svg
+                aria-hidden="true"
+                class="-mr-1 ml-2 h-5 w-5"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </button>
+          </div>
+          <!--v-if-->
+        </div>
+      </div>
+    </div>
+  </section>
+  <transition-group-stub
+    appear="false"
+    class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 p-6 max-w-screen-2xl mx-auto gap-3"
+    css="true"
+    persisted="false"
+    tag="section"
+  >
+    
+    
+    <div
+      class="relative overflow-hidden rounded-lg shadow-lg transition hover:scale-[1.03] duration-300 ease-in-out cursor-pointer group"
+    >
+      <div
+        class="aspect-w-2 aspect-h-1"
+      >
+        <div
+          class="relative overflow-hidden object-cover w-full h-full"
+        >
+          <img
+            alt="Product Thumbnail"
+            class="inset-0 w-full h-full object-cover transition-opacity duration-300 opacity-0"
+            data-src=""
+            src=""
+          />
+          <!--v-if-->
+          <!--v-if-->
+        </div>
+      </div>
+      <div
+        class="w-full max-h-0 group-hover:max-h-full opacity-0 group-hover:opacity-90 overflow-hidden transition-all duration-700 ease-in-out absolute left-0 right-0 bottom-0 rounded-b-md bg-secondary p-4"
+      >
+        <h3
+          class="text-lg font-boldmb-2 text-center"
+        >
+          Product 1
+        </h3>
+        <p
+          class="text-sm p-1"
+        >
+          Product 1 description
+        </p>
+        <div
+          class="flex items-center justify-between"
+        >
+          <div
+            class="flex gap-1 items-center"
+          >
+            <span>
+              4.5
+            </span>
+            <svg
+              class="size-5"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+          <div
+            class="text-xl font-semibold text-right w-full"
+          >
+            10.99€
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="relative overflow-hidden rounded-lg shadow-lg transition hover:scale-[1.03] duration-300 ease-in-out cursor-pointer group"
+    >
+      <div
+        class="aspect-w-2 aspect-h-1"
+      >
+        <div
+          class="relative overflow-hidden object-cover w-full h-full"
+        >
+          <img
+            alt="Product Thumbnail"
+            class="inset-0 w-full h-full object-cover transition-opacity duration-300 opacity-0"
+            data-src=""
+            src=""
+          />
+          <!--v-if-->
+          <!--v-if-->
+        </div>
+      </div>
+      <div
+        class="w-full max-h-0 group-hover:max-h-full opacity-0 group-hover:opacity-90 overflow-hidden transition-all duration-700 ease-in-out absolute left-0 right-0 bottom-0 rounded-b-md bg-secondary p-4"
+      >
+        <h3
+          class="text-lg font-boldmb-2 text-center"
+        >
+          Product 2
+        </h3>
+        <p
+          class="text-sm p-1"
+        />
+        <div
+          class="flex items-center justify-between"
+        >
+          <div
+            class="flex gap-1 items-center"
+          >
+            <span>
+              0
+            </span>
+            <svg
+              class="size-5"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+          <div
+            class="text-xl font-semibold text-right w-full"
+          >
+            20.49€
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+  </transition-group-stub>
+  
+</div>
+`;

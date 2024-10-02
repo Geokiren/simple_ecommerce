@@ -1,0 +1,266 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ProductView > matches snapshot 1`] = `
+<section
+  class="max-w-screen-2xl mx-auto px-6 py-6 flex flex-col gap-4"
+  data-test="product-view"
+>
+  <div
+    class="flex flex-col lg:flex-row"
+  >
+    <div
+      class="w-full lg:w-2/3 h-auto lg:pr-2"
+    >
+      <!--v-if-->
+    </div>
+    <div
+      class="w-full lg:w-1/3 mt-6 lg:mt-0 lg:ps-2 flex flex-col gap-2 lg:gap-10"
+    >
+      <h1
+        class="text-xl text-center font-bold mb-2"
+        data-test="product-title"
+      >
+        Product 1
+      </h1>
+      <div
+        class="flex justify-between items-center"
+      >
+        <div
+          class="flex gap-1 flex-wrap"
+        >
+          
+          
+        </div>
+        <div
+          class="flex gap-1 items-center"
+        >
+          <span
+            data-test="product-rating"
+          >
+            4.5
+          </span>
+          <svg
+            class="size-5"
+            fill="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clip-rule="evenodd"
+              d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </div>
+      </div>
+      <p
+        class="text-sm leading-6 font-light"
+        data-test="product-description"
+      >
+        Product 1 description
+      </p>
+      <div
+        class="flex"
+      >
+        <div
+          class="p-2 bg-primary text-xl font-semibold rounded-s text-alttext dark:text-text"
+          data-test="product-discount"
+        >
+          10%
+        </div>
+        <div
+          class="text-xl font-semibold rounded p-2 bg-secondary rounded-e"
+          data-test="product-price"
+        >
+          €10.99
+        </div>
+      </div>
+      <div
+        class="flex flex-col gap-2"
+      >
+        <button
+          class="btn bg-primary rounded p-4 text-lg hover:bg-active dark:hover:text-alttext transition duration-300 ease-in-out text-alttext dark:text-text mt-4 lg:mt-0"
+          data-test="product-add-to-bag"
+        >
+           ADD TO BAG 
+        </button>
+        <div
+          class="text-xs lg:text-sm text-center"
+        >
+          <span
+            data-test="product-return-policy"
+          />
+          <span>
+             | 
+          </span>
+          <span
+            data-test="product-shipping-info"
+          />
+          <span>
+             | 
+          </span>
+          <span
+            data-test="product-warranty-info"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <h1
+      class="text-xl text-center lg:text-left font-bold px-4 pt-4 pb-2 w-full border-b"
+    >
+      Products in category
+    </h1>
+    <transition-group-stub
+      appear="false"
+      class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 p-6 max-w-screen-2xl mx-auto gap-3"
+      css="true"
+      persisted="false"
+      tag="section"
+    >
+      
+      
+      <div
+        class="relative overflow-hidden rounded-lg shadow-lg transition hover:scale-[1.03] duration-300 ease-in-out cursor-pointer group"
+      >
+        <div
+          class="aspect-w-2 aspect-h-1"
+        >
+          <div
+            class="relative overflow-hidden object-cover w-full h-full"
+          >
+            <img
+              alt="Product Thumbnail"
+              class="inset-0 w-full h-full object-cover transition-opacity duration-300 opacity-0"
+              data-src=""
+              src=""
+            />
+            <!--v-if-->
+            <!--v-if-->
+          </div>
+        </div>
+        <div
+          class="w-full max-h-0 group-hover:max-h-full opacity-0 group-hover:opacity-90 overflow-hidden transition-all duration-700 ease-in-out absolute left-0 right-0 bottom-0 rounded-b-md bg-secondary p-4"
+        >
+          <h3
+            class="text-lg font-boldmb-2 text-center"
+          >
+            Product 2
+          </h3>
+          <p
+            class="text-sm p-1"
+          />
+          <div
+            class="flex items-center justify-between"
+          >
+            <div
+              class="flex gap-1 items-center"
+            >
+              <span>
+                0
+              </span>
+              <svg
+                class="size-5"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </div>
+            <div
+              class="text-xl font-semibold text-right w-full"
+            >
+              20.49€
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+    </transition-group-stub>
+  </div>
+  <div
+    class="flex flex-col gap-2 lg:gap-4"
+  >
+    <h1
+      class="text-xl text-center lg:text-left font-bold px-4 pt-4 pb-2 w-full border-b"
+    >
+      Reviews
+    </h1>
+    <div
+      class="grid grid-cols-1 lg:grid-cols-3 gap-4"
+    >
+      
+      <div
+        class="p-4 bg-secondary rounded-lg shadow-md"
+      >
+        <div
+          class="flex items-center justify-between"
+        >
+          <div
+            class="flex items-center gap-2"
+          >
+            <div
+              class="w-12 h-12 rounded-full overflow-hidden"
+            >
+              <div
+                class="rounded-full w-full h-full bg-primary text-alttext dark:text-text font-bold text-lg flex items-center justify-center"
+              >
+                <div
+                  data-test="review-initials"
+                >
+                  JD
+                </div>
+              </div>
+            </div>
+            <div
+              class="text-lg font-bold"
+              data-test="review-name"
+            >
+              John Doe
+            </div>
+          </div>
+          <div
+            class="flex items-center gap-1"
+          >
+            <span
+              class="text-lg"
+              data-test="review-rating"
+            >
+              5
+            </span>
+            <svg
+              class="size-5"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          class="mt-2 text-lg"
+        >
+          <p
+            data-test="review-comment"
+          >
+            Great product!
+          </p>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+`;
